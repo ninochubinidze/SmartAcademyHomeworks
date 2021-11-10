@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="2" parallel="tests">
+
+    <test name="TestSuit3" parallel="tests" >
+        <classes>
+            <class name="com.Facebook.LoginPageTest" />
+
+        </classes>
+    </test>
+
+    <test name="TestSuit2" parallel="tests" >
+        <classes>
+            <class name="com.Facebook.RegistrationPageTest" />
+        </classes>
+    </test>
+</suite>
